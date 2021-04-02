@@ -1,0 +1,45 @@
+    1  git init
+    2  git remote add origin https://github.com/antonnedelkoski/SI_2021_lab1_193101.git
+    3  git branch -M Master
+    4  git status
+    5  git add .
+    6  git status
+    7  git commit -m "Add numbers from 1-5"
+    8  git config --global user.email "antonnedelkoski@gmail.com"
+    9  git commit -m "Add numbers from 1-5"
+   10  git status
+   11  git add .
+   12  git commit -m "Add numbers from 6-9"
+   13  git status
+   14  git add .
+   15  git commit -m "Add some words"
+   16  git status
+   17  git reset --hard HEAD~1
+   18  git log
+   19  git push origin Master
+   20  git branch branch1
+   21  git branch branch2
+   22  git checkout branch1
+   23  git status
+   24  git add .
+   25  git commit -m "Add 5 words"
+   26  git status
+   27  git add .
+   28  git commit -m "Add 6 words"
+   29  git push origin branch1
+   30  git checkout branch2
+   31  git status
+   32  git add .
+   33  git commit -m "Add numbers from 10-15"
+   34  git push origin branch2
+   35  git checkout Master
+   36  git merge branch1
+   37  git status
+   38  git add .
+   39  git commit -m "Change 1 to 0 and add 100"
+   40  git merge branch2
+   41  git status
+   42  git add .
+   43  git commit -m "Merge"
+   44  git push origin Master
+   45  history
